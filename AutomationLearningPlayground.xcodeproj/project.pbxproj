@@ -11,9 +11,9 @@
 		65A0F5472897FAD800A2E8C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0F5462897FAD800A2E8C7 /* ViewController.swift */; };
 		65A0F5492897FAD900A2E8C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65A0F5482897FAD900A2E8C7 /* Assets.xcassets */; };
 		65A0F54C2897FAD900A2E8C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65A0F54A2897FAD900A2E8C7 /* Main.storyboard */; };
-		65A0F5572897FAD900A2E8C7 /* AutomationLearningPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0F5562897FAD900A2E8C7 /* AutomationLearningPlaygroundTests.swift */; };
 		65A0F5612897FAD900A2E8C7 /* AutomationLearningPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0F5602897FAD900A2E8C7 /* AutomationLearningPlaygroundUITests.swift */; };
 		65A0F5632897FAD900A2E8C7 /* AutomationLearningPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0F5622897FAD900A2E8C7 /* AutomationLearningPlaygroundUITestsLaunchTests.swift */; };
+		65A0F5752897FF0700A2E8C7 /* AutomationLearningPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A0F5742897FF0600A2E8C7 /* AutomationLearningPlaygroundTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,10 +41,10 @@
 		65A0F54B2897FAD900A2E8C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65A0F54D2897FAD900A2E8C7 /* AutomationLearningPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutomationLearningPlayground.entitlements; sourceTree = "<group>"; };
 		65A0F5522897FAD900A2E8C7 /* AutomationLearningPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomationLearningPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		65A0F5562897FAD900A2E8C7 /* AutomationLearningPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationLearningPlaygroundTests.swift; sourceTree = "<group>"; };
 		65A0F55C2897FAD900A2E8C7 /* AutomationLearningPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomationLearningPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A0F5602897FAD900A2E8C7 /* AutomationLearningPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationLearningPlaygroundUITests.swift; sourceTree = "<group>"; };
 		65A0F5622897FAD900A2E8C7 /* AutomationLearningPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomationLearningPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		65A0F5742897FF0600A2E8C7 /* AutomationLearningPlaygroundTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomationLearningPlaygroundTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				65A0F5432897FAD800A2E8C7 /* AutomationLearningPlayground */,
-				65A0F5552897FAD900A2E8C7 /* AutomationLearningPlaygroundTests */,
+				65A0F5732897FEC800A2E8C7 /* AutomationLearningPlaygroundTests */,
 				65A0F55F2897FAD900A2E8C7 /* AutomationLearningPlaygroundUITests */,
 				65A0F5422897FAD800A2E8C7 /* Products */,
 			);
@@ -104,14 +104,6 @@
 			path = AutomationLearningPlayground;
 			sourceTree = "<group>";
 		};
-		65A0F5552897FAD900A2E8C7 /* AutomationLearningPlaygroundTests */ = {
-			isa = PBXGroup;
-			children = (
-				65A0F5562897FAD900A2E8C7 /* AutomationLearningPlaygroundTests.swift */,
-			);
-			path = AutomationLearningPlaygroundTests;
-			sourceTree = "<group>";
-		};
 		65A0F55F2897FAD900A2E8C7 /* AutomationLearningPlaygroundUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +111,14 @@
 				65A0F5622897FAD900A2E8C7 /* AutomationLearningPlaygroundUITestsLaunchTests.swift */,
 			);
 			path = AutomationLearningPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		65A0F5732897FEC800A2E8C7 /* AutomationLearningPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				65A0F5742897FF0600A2E8C7 /* AutomationLearningPlaygroundTests.swift */,
+			);
+			path = AutomationLearningPlaygroundTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +192,7 @@
 					};
 					65A0F5512897FAD900A2E8C7 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 						TestTargetID = 65A0F5402897FAD800A2E8C7;
 					};
 					65A0F55B2897FAD900A2E8C7 = {
@@ -260,7 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65A0F5572897FAD900A2E8C7 /* AutomationLearningPlaygroundTests.swift in Sources */,
+				65A0F5752897FF0700A2E8C7 /* AutomationLearningPlaygroundTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,10 +420,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AutomationLearningPlayground/AutomationLearningPlayground.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J7CHKBB62N;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -435,6 +436,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ua.pihsrawnaissurkcuf.AutomationLearningPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -446,10 +448,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = AutomationLearningPlayground/AutomationLearningPlayground.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J7CHKBB62N;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -462,6 +464,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ua.pihsrawnaissurkcuf.AutomationLearningPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -472,15 +475,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J7CHKBB62N;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ua.pihsrawnaissurkcuf.AutomationLearningPlaygroundTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutomationLearningPlayground.app/Contents/MacOS/AutomationLearningPlayground";
 			};
@@ -491,10 +501,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J7CHKBB62N;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ua.pihsrawnaissurkcuf.AutomationLearningPlaygroundTests;
